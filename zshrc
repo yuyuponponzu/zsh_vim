@@ -1,3 +1,4 @@
+source ~/.zplug/init.zsh 
 # 少し凝った zshrc
 # License : MIT
 # http://mollifier.mit-license.org/
@@ -167,11 +168,6 @@ esac
 
 # vim:set ft=zsh:
 
-
-# zplug settings
-export ZPLUG_HOME=/usr/local/opt/zplug
-source $ZPLUG_HOME/init.zsh
-
 # plugins
 zplug "plugins/git", from:oh-my-zsh
 zplug "zsh-users/zsh-autosuggestions"
@@ -190,33 +186,14 @@ fi
 # Then, source plugins and add commands to $PATH
 zplug load --verbose
 
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-#export PATH="/Users/hori/.pyenv/versions/anaconda3-5.1.0/envs/opencv/bin:$PATH"
-#export PATH="/Users/hori/.pyenv/versions/anaconda3-5.1.0/envs:$PATH"
-#export PATH="/Users/hori/anaconda/bin:$PATH"
-# export PATH="/Users/hori/.pyenv/versions/anaconda3-5.1.0/bin:$PATH"  # commented out by conda initialize
-export PATH="/Users/hori/.pyenv/versions/anaconda3-5.1.0/lib/python3.6:$PATH"
-export PATH="/Users/hori/of_v0.10.1_osx_release/addons/ofxMSATensorFlow/libs/tensorflow/lib/osx/:$PATH"
-#export ANDROID_NDK_HOME="/Users/hori/openframeworks/android-ndk-r15c:$PATH"
-#export PATH=""
-#[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# ## Fix array index for ZSH
+# if [ "$ZSH_NAME" = "zsh" ];then
+#   setopt localoptions ksharrays
+# fi
 
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/hori/.pyenv/versions/anaconda3-5.1.0/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/Users/hori/.pyenv/versions/anaconda3-5.1.0/etc/profile.d/conda.sh" ]; then
-        . "/Users/hori/.pyenv/versions/anaconda3-5.1.0/etc/profile.d/conda.sh"
-    else
-        export PATH="/Users/hori/.pyenv/versions/anaconda3-5.1.0/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
+#PATH
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+export PATH="/bin:$PATH"
 export PATH="/usr/local/opt/sphinx-doc/bin:$PATH"

@@ -1,0 +1,309 @@
+mv vimrc ../
+mv zshrc ../
+mv vimrc ./.vimrc
+mv zshrc ./.zshrc
+mv zshrc.pre-oh-my-zsh ../.zshrc.pre-oh-my-zsh
+brew install --without-etcdir zsh
+brew install zsh-completions
+curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer
+echo 'source ~/.zplug/init.zsh' > ~/.zshrc
+source ~/.zplug/init.zsh\
+zplug 'zplug/zplug', hook-build:'zplug --self-manage'
+zsh: command not found: zplug
+mv .zshrc .zshrc_____
+mv .zshrc_____ .zshrc
+find / -name zplug
+sudo find / -name zplug
+mv .zshrc .zshrc_
+mv .zshrc_ .zshrc
+curl -sL zplug.sh/installer | zsh
+which zplug
+install zplug
+zsh install zplug
+echo $SHELL
+cat /etc/shells
+vim /etc/shells
+sudo vim /etc/shells
+brew install zplug
+exec $SHELL -l
+curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh| zsh
+export ZPLUG_HOME=/Users/horiyuki/.zplug
+sudo xcodebuild -license
+git clone https://github.com/zplug/zplug $ZPLUG_HOME
+rm .zshrc
+mv ./Downloads/zshrc ./.zshrc
+ls ./.zplug
+exec zsh
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+cd /usr/share/vim/
+cd vim 81
+cd vim81
+cd colors
+rm q
+rm .zshrc.pre-oh-my-zsh
+cd share/vim/vim81/
+chmod 744 ./colors
+chmod 777 ./colors
+sudo chmod 777 ./colors
+csrutil status
+sudo mount -uw /
+killall Finder
+touch foo
+sudo touch foo
+rm foo
+vim touch
+cd /usr/share/vim/vim74/colors
+cd /usr/share/vim/vim81/colors
+sudo git clone https://github.com/w0ng/vim-hybrid.git
+sudo cp ./vim-hybrid/colors/hybrid.vim ./
+sudo rm -rf vim-hybrid
+cd Desktop
+/Library/Audio/Plug-Ins/VST/Addictive\ Drums\ 2.vst/Contents/MacOS/Addictive\ Drums\ 2 ; exit;
+unzip 2020-02-13-raspbian-buster-full.zip
+sudo dd bs=1m if=2020-02-13-raspbian-buster-full.img of=/Volumes/UNTITLED
+cd ~/dev
+cd dev
+cd /dev
+cd Users
+cd horiyuki
+cd Downloads
+sudo dd bs=1m if=2020-02-13-raspbian-buster-full.img of=/dev/disk2s1
+diskutil list
+df
+sudo dd bs=1m if=2020-02-13-raspbian-buster-full.img of=/dev/disk2
+sudo kill -9 91218
+ps aux | grep fsck_exfat
+lsusb
+arp -a
+udevadm info --query=path --name=/dev/sdb
+sudo udevadm info --query=path --name=/dev/sdc
+udevadm monitor
+brew install udev
+zsh install udev
+ps aux
+ps aux | grep xit
+mkdir Research
+mkdir Probspace
+mkdir YoutubeCount
+docker --version
+docker pull jupyter/scipy-notebook
+mkdir MasterResearch
+mkdir TrainNumberEstimation
+docker run -v ./data/ -p 10000:8888 --name jupyter jupyter/scipy-notebook
+;s
+docker start -it 04479ab2ba47
+mkdir data
+docker rm 04479ab2ba47
+docker run -v /Users/horiyuki/Research/Probspace/YoutubeCount:/home/jovyan/work -it -p 10000:8888 --name jupyter jupyter/scipy-notebook
+mv -f ../../anaconda3 ./
+mv -rf ../../anaconda3 ./
+ls ../../
+mv ../../template/anaconda3 ./
+cp -f ./anaconda3 ../../template/
+cp -r ./anaconda3 ../../template/
+docker run -p 3000:8888 anaconda3:latest
+docker run -p 3000:8888 anaconda3:anaconda3
+cd notebooks
+cd course1_downloads
+l
+docker rmanaconda3
+docker rm anaconda3
+docker start 41e8871a0a0d
+docker stop 41e8871a0a0d
+docker rm 41e8871a0a0d
+docker rm 9500b8fc3ff9
+docker run -p 3000:8888 anaconda3:anaconda3 -v /Users/horiyuki/Research/Probspace/YoutubeCount/data:/ \
+
+ls /
+ls /opt/notebooks
+ls /opt/notebook
+docker stop 5b2810a2f196
+docker rm 5b2810a2f196
+ls -al data
+docker volume ls
+cd /mnt/sda1/var/lib/docker/volumes/
+which docker
+cd /usr/local/bin/docker
+cd /usr/local/bin/
+cd ~/Research/Probspace/YoutubeCount/
+ls /opt/
+docker exec -it 6b56f45bf194 bash
+docker stop
+docker stop 6b56f45bf194
+docker rm 6b56f45bf194
+cd anaconda3
+docker build -t anaconda3:anaconda3 .
+docker run -p 3000:8888 anaconda3 -v /Users/horiyuki/Research/Probspace/YoutubeCount/data:/opt/notebooks
+docker run -p 3000:8888 anaconda3:jupyter -v /Users/horiyuki/Research/Probspace/YoutubeCount/data:/opt/notebooks
+docker run -p 3000:8888 anaconda3:anaconda3 -v /Users/horiyuki/Research/Probspace/YoutubeCount/data:/opt/notebooks
+docker exec -it d61c697ebeb4 bash
+docker images
+docker rmi <none>
+docker rmi \<none\>
+docker rmi 2e9ce1ee78a9
+docker rmi 903c591af249
+docker stop d61c697ebeb4
+docker rm d61c697ebeb4
+docker run -v /Users/horiyuki/Research/Probspace/YoutubeCount/data:/opt/notebooks -p 3000:8888 anaconda3:anaconda3
+ls data
+kill 81322
+kill 93259
+kill 81490
+kill 93392
+kill 93471
+ps aux |grep vscode
+kill -kill 93573
+cd ../../MasterResearch/TrainNumberEstimation/SNMF
+mkdir qiita
+cp nmf.py qiita/
+cp sep.py qiita/
+cd qiita
+vim nmf.py
+vim sep.py
+clear
+cd MasterResearch
+cd TrainNumberEstimation
+cd SNMF
+docker run -v /Users/horiyuki/Research//MasterResearch/TrainNumberEstimation/SNMF:/opt/notebooks -p 3001:8888 anaconda3:anaconda3
+cd ~/Downloads/mt_hori
+cd thesis_m
+vim separate.tex
+vim nmf_check.py
+docker restart c43539008efa
+docker exec -it c43539008efa bash
+docker restart 8b23635f8fd1
+cd ~/.ssh
+mkdir .ssh
+cd .ssh
+ssh-keygen
+cat id_rsa
+cat id_rsa.pub
+git remote add origin https://github.com/yuyuponponzu/youtube_count.git
+ifconfig
+jupyter notebook list
+cd Probspace
+cd YoutubeCount
+ld
+cd data
+docker exec -it 8b23635f8fd1 bash
+mv åƒ°ƒ­ç§°æƒ¼ªè¨­å®ƒºãƒ£ƒµã‚©ãƒ£«ãƒ£€ .private
+cd .private
+mv ../Desktop/çƒ´»éƒ½ƒ‚åƒ¯ƒ®éƒ¬² 2020-04-25 23.16.45 ./
+mv ../Desktop/"çƒ´»éƒ½ƒ‚åƒ¯ƒ®éƒ¬² 2020-04-25 23.16.45" ./
+mv ../Desktop/"çƒ´»éƒ½ƒ‚åƒ¯ƒ®éƒ¬² 2020-04-25 23.16.45" ./"abemo"
+mv ../Desktop/"çƒ´»éƒ½ƒ‚åƒ¯ƒ®éƒ¬² 2020-04-25 23.16.45" ./abemo
+mv ../Desktop/abemo.mov ./
+cd ../
+cd p5js_sample
+docker container run --name web -d -p 8888:80 -v $(pwd):/usr/share/nginx/html nginx:alpine
+docker ps -a
+docker exec -it d06e82ce356c bash
+docker exec -it d06e82ce356c
+pwd
+docker stop d06e82ce356c
+docker start d06e82ce356c
+mkdir typo_1
+vim index.html
+git remote add origin https://github.com/yuyuponponzu/github_p5js_sample.git
+vim .git
+cd .git
+vim config
+git push origin master
+cd Research/
+cd /usr
+cd local
+which brew
+ls /usr/local/bin
+vim .vimrc
+vim .zsh_history
+ls -a
+vim init.zsh
+vim .zcompdump
+vim .dust
+echo $PATH
+ls /etc/
+ls /etc/profile
+less /etc/profile
+less /etc/bashrc
+vim zshrc
+less /etc/zshrc
+less /etc/zprofile
+mv .dust .zshrc
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+zplug install heroku
+brew help
+brew tap heroku/brew
+brew install heroku
+llss
+vviimm
+cd zplug
+cd .zplug
+cd bin
+lcd repos
+ls repos
+ls repos/zsh-users
+ls repos/zsh-users/zsh-autosuggestions
+ls repos/zsh-users/zsh-autosuggestions/src
+ls repos/zsh-users/zsh-autosuggestions/src/wigets.zsh
+vim repos/zsh-users/zsh-autosuggestions/src/wigets.zsh
+cd repos/zsh-users/zsh-autosuggestions/src/
+zplug update
+cd .zplug/repos/zsh-users/zsh-autosuggestions/src
+vim widgets.zsh
+source widgets.zsh
+zplug install
+vim .zshrc
+compaudit
+cd /usr/local/share/zsh/
+chmod 755 site-functions/
+chmod 755 zsh/
+source
+source .zshrc
+cd Research
+cd WEB
+cd typo_1
+git pull heroku master
+rm -rf .git
+heroku login
+ogit init
+git init
+heroku git:remote -a p5js-sample1
+vim index.php
+vim package.json
+git add .
+git commit -m "first commit"
+git push heroku master
+vue ui
+cd ..
+mkdir portfolio2
+cd portfolio2
+FROM node:13.5-alpine\
+\
+WORKDIR /usr/src/app\
+\
+RUN apk update && n
+vim Docker
+vim Dockerfile
+vim docker-compose.yml
+docker-compose build
+sudo npm install -g @vue/cli @vue/cli-init
+export PATH="/usr/local/bin:$PATH:/usr/local/sbin"
+cd ~
+vim bash_profile.rtf
+mv bash_profile.rtf
+mv bash_profile.rtf .bash_profile
+source ~/.bash_profile
+nodebrew help
+ls
+mv -rf ./Desktop/yuki ./.yuki
+mv -f ./Desktop/yuki ./.yuki
+mv ./yuki ./local/
+mv -f ./yuki ./local/
+mv -f .yuki ./local/
+ls .local
+ls -al .local
+ls -al
+ls -al ./.local/
+: 1591281939:0;arp
+: 1591281948:0;arp -s
+: 1591281954:0;arp -a
